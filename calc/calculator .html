@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+
+</head>
+<body>
+    <fieldset id="fd">
+    <div id="myDiv" class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <button id="close" onclick="document.getElementById('fd').style.display='none'" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
+       <br> <p style="color:red; font-weight: bold;">Message from Aashis !</p><br>
+        <div class="offcanvas-header">
+          <h2 class="offcanvas-title" id="offcanvasLabel">Aashish Rijal</h2>
+          <hr/><br>
+          
+        </div>
+        <div style="letter-spacing: 1px;" class="offcanvas-body">
+            Hello! Everyone its me Aashish Rijal.<br> I designed this Calculator<br>Hope! you like this<br><br>THANK YOU !
+        </div>
+        <hr/><br>
+        <p style="color:red;"><u>Click the close button above<br>for cancel Info box</u></p>
+      </div>
+      <footer>@aashis ASMT CSIT 1st SEM</footer>
+    </fieldset>
+    <div class="con">
+        <fieldset id="ff">
+            <legend><h1>Calculator</h1></legend>
+    
+    <form action="" id="calc">
+        <input id="result" type="text" name="result">
+        <hr/>
+        
+        <br>
+        <div class="roww">
+        <input type="button" value="7" onclick="result.value+='7'">
+        <input type="button" value="8" onclick="result.value+='8'">
+        <input type="button" value="9" onclick="result.value+='9'">
+        <input type="button" value="*" onclick="result.value+='*'">
+        </div>
+        <hr/>
+        <br>
+        <div class="roww">
+        <input type="button" value="4" onclick="result.value+='4'">
+        <input type="button" value="5" onclick="result.value+='5'">
+        <input type="button" value="6" onclick="result.value+='6'">
+        <input type="button" value="+" onclick="result.value+='+'">
+        </div>
+        <hr/>
+        <br>
+        <div class="roww">
+        <input type="button" value="1" onclick="result.value+='1'">
+        <input type="button" value="2" onclick="result.value+='2'">
+        <input type="button" value="3" onclick="result.value+='3'">
+        <input type="button" value="-" onclick="result.value+='-'">
+        </div>
+        <hr/>
+        <br>
+        <div class="roww">
+        <input type="button" value="0" onclick="result.value+='0'">
+        <input type="button" value="/" onclick="result.value+='/'">
+        <input type="button" value="pi" onclick="result.value+='3.14'">
+        <input type="button" value="." onclick="result.value+='.'">
+        </div>
+        <hr/>
+        <br>
+        <div class="roww">
+        <input type="button" value="c" onclick="result.value+=''">
+        <input type="button" value="(" onclick="result.value+='('">
+        <input type="button" value=")" onclick="result.value+=')'">
+        <input type="button" value="=" onclick="result.value=eval(result.value)">
+        </div>
+        <hr/>
+        <footer>@aashisrijal 2023 calc</footer>
+
+
+    </form>
+    </div>
+
+  
+
+    
+</body>
+<script type="javascript" src="js/bootstrap.min.js"></script>
+</html>

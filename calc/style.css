@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: ;
+}
+.con{
+    justify-content: center;
+    text-align:;
+    margin-left: 20%;
+}
+#result{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+    font-weight: bold;
+    width: 80%;
+}
+.roww{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input{
+    padding-left: 17px;
+    padding-right: 17px;
+    margin: 5px;
+    font-weight: bold;
+    background-color: #168;
+    color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+
+}
+#ff{
+    border: 5px #169 solid;
+    border-radius: 5px;
+    background-color: #FF8F4A;
+    text-align: ;
+    justify-content: center;
+    margin-left:;
+}
+h1{
+    background-color: #168;
+    color: #fff;
+    border: 2px solid #168;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    float: right;
+    font-weight: bold;
+}
+hr{
+    color: #168;
+}
+legend{
+    text-align: center;
+}
+#myDiv{
+    padding-left: 5px;
+}
+.offcanvas-body{
+    font-weight: bold;
+}
+h2{
+    text-align: right;
+}
+#close{
+     
+     background-color: red;
+    width: 25%;
+    float: right;
+    }
+    #fd{
+        border: 5px black solid;
+        border-radius: 10px;
+    }
